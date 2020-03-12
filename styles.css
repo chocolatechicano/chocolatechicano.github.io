@@ -1,0 +1,203 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	
+}
+
+#content {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+	float: left;
+	width: 75%;
+	text-align: center;
+	background-color: #663399;
+	height: 90px;
+}
+
+#pagename {
+	float: left;
+	width: 25%;
+	height: 90px;
+	text-align: center;
+	background-color: #663399;
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+#pagename h2 {
+	margin: 4% 3% 1%;
+}
+
+.logo {
+	margin-top: 0px;
+	margin-left: 33%;
+	width: 300px;
+	height: 100px;
+}
+
+#mid-div {
+	clear: both;
+	width: 100%;
+	height: 740px;
+	overflow: hidden;
+}
+
+#nav {
+	background-color: #000;
+	float: left;
+	clear: both;
+	width: 15%;
+	height: 100%;
+	text-align: left;
+}
+
+#top-nav {
+	padding-top: 50px;
+}
+
+#nav-list li {
+	padding-bottom: 50px;
+	list-style-type: none;
+	margin-left: -10px;
+}
+
+#nav-list a {
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+	transition: color 150ms ease-in-out;
+}
+
+#nav-list a:hover {
+	color: #663399;
+	text-decoration: underline;
+}
+
+
+#media {
+	background-color: #b19cd9;
+	float: left;
+	width: 70%;
+	height: 100%;
+	text-align: center;
+	overflow: auto;
+}
+
+#media-content {
+	padding: 20px 5%;
+}
+
+#adspace {
+	background-color: #000;
+	float: left;
+	width: 15%;
+	height: 100%;
+}
+
+#footer {
+	clear: both;
+	width: 100%;
+	background-color: #663399;
+	overflow: auto;
+}
+
+#footer-nav {
+	float: left;
+	width: 75%;
+	text-align: center;
+	font-size: 16px;
+}
+
+#footer-nav hr {
+	width: 75%;
+	margin-top: 0px;
+}
+
+.footer-nav-lists {
+	margin: 1% 4.8%;
+}
+
+.footer-nav-header {
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 1%;
+}
+
+.footer-nav-lists a{
+	padding-bottom: 10px;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 1%;
+	
+	transition: color 300ms ease-in-out;
+}
+
+.footer-nav-lists a:hover {
+	color: #000;
+}
+
+#footer-list-one {
+	clear: both;
+	float: left;
+	width: 15%;
+}
+
+#footer-list-two {
+	float: left;
+	width: 15%;
+}
+
+#footer-list-three {
+	float: left;
+	width: 15%;
+}
+
+#footer-list-four {
+	float: left;
+	width: 15%;
+}
+
+#trademark {
+	float: left;
+	width: 25%;
+}
+
+#trademark p {
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 20px;
+	margin: 3% 4%;
+}
+
+#social-link-div {
+	text-align: center;
+}
+
+#social-link-div hr {
+	width: 75%;
+}
+
+#footer .social-link img {
+	border-radius: 20px;
+	width: 30px;
+	height: 30px;
+	margin: 2% 6.5%;
+	
+	transition: background-color 200ms ease-in-out;
+}
+
+#footer .social-link img:hover {
+	background-color: #000;
+}
+
+#social-link-div h3 {
+	font-size: 20px;
+	color: #FFF;
+	text-transform: uppercase;
+}

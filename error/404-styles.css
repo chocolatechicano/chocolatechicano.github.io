@@ -1,0 +1,188 @@
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+#content {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#header {
+	float: left;
+	width: 75%;
+	text-align: center;
+	background-color: #663399;
+	height: 90px;
+}
+
+#pagename {
+	float: left;
+	width: 25%;
+	height: 90px;
+	text-align: left;
+	background-color: #663399;
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+#pagename h2 {
+	margin: 30px 25px;
+}
+
+.logo {
+	margin-top: 0px;
+	margin-left: 33%;
+	width: 300px;
+	height: 100px;
+}
+
+#nav {
+	background-color: #000;
+	float: left;
+	clear: both;
+	width: 0%;
+	height: 650px;
+	text-align: left;
+}
+
+#top-nav {
+	padding-top: 30px;
+}
+
+#nav-list li {
+	padding-bottom: 30px;
+	list-style-type: none;
+}
+
+#nav-list a {
+	font-size: 35px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+	transition: color 300ms ease-in-out;
+}
+
+#nav-list a:hover {
+	color: #663399;
+	text-decoration: underline;
+}
+
+
+#media {
+	background-color: #FFF;
+	float: left;
+	width: 100%;
+	height: 650px;
+	text-align: center;
+}
+
+#media a {
+	text-decoration: none;
+	color: #663399;
+	font-size: 20px;
+	
+	transition: color 300ms ease-in-out;
+}
+
+#media a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+#adspace {
+	background-color: #000;
+	float: right;
+	width: 0%;
+	height: 650px;
+}
+
+#footer {
+	clear: both;
+	width: 100%;
+	background-color: #663399;
+	overflow: auto;
+}
+
+#footer-nav-header {
+	clear: both;
+	float: left;
+	width: 75%;
+	text-align: left;
+}
+
+#footer-nav-header li {
+	display: inline-block;
+	text-decoration: none;
+	padding-right: 208px;
+}
+
+#footer-nav-header .first-link {
+	margin-left: 20px;
+}
+
+#footer-nav-header .last-link {
+	padding-right: 20px;
+}
+
+#footer-nav-header hr {
+	width: 90%;
+}
+
+#footer-nav-header a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 20px;
+	
+	transition: color 300ms ease-in-out;
+}
+
+#footer-nav-header a:hover {
+	color: #000;
+}
+
+#trademark {
+	float: right;
+	width: 25%;
+}
+
+#trademark p {
+	text-align: center;
+	color: #FFF;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+#social-link-div {
+	clear: both;
+	float: right;
+	width: 25%;
+}
+
+#footer .social-link {
+	float: left;
+}
+
+#footer .social-link img {
+	width: 30px;
+	height: 30px;
+	margin: 0px 20px 0px 40px;
+}
+
+#follow-us-footer {
+	clear: both;
+	float: right;
+	text-align: center;
+	width: 25%;
+	color: #FFF;
+}
+
+#follow-us-footer hr {
+	margin-top: 10px;
+	width: 90%;
+}
+
+#follow-us-footer h3 {
+	margin: 20px 0px;
+	text-transform: uppercase;
+}

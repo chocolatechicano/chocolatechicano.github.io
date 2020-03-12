@@ -1,0 +1,103 @@
+.cards {
+	clear: both;
+	width: 87%;
+	height: 300px;
+	margin: 1%;
+	display: inline-block;
+	text-align: center;
+	overflow: hidden;
+}
+
+.cards-content {
+	color: #000;
+	border-radius: 20px;
+	float: left;
+	background-color: #FFF;
+	height: 94%;
+	width: 96%;
+	margin: 1%;
+	display: inline-block;
+	overflow: hidden;
+	text-align: center;
+}
+
+.cards-img {
+	float: left;
+	width: 30%;
+}
+
+.cards-img img {
+	margin: 30% 0%;
+	width: 150px;
+	height: 150px;
+}
+
+.cards-text {
+	text-align: left;
+	float: left;
+	margin: 0% 2%;
+	width: 60%;
+}
+
+.cards-text h2{
+	text-align: center;
+}
+
+.link-button {
+	display: inline-block;
+	border-radius: 15px;
+	background-color: #663399;
+	font-size: 20px;
+	width: 175px;
+	height: 50px;
+}
+
+.link-button a {
+	display: inline-block;
+	padding-top: 6.5%;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+.link-button a:active {
+	color: #000;
+}
+
+.indent a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #663399;
+}
+
+.indent a:hover {
+	text-decoration: underline;
+}
+
+#homepage-text {
+	text-align: center;
+	color: black;
+	background-color: #FFF;
+	border-radius: 15px;
+	width: 92%;
+	margin: 2%;
+	display: inline-block;
+}
+
+#homepage-text hr {border-color: #663399; width: 80%;}
+
+#homepage-text-p{display: inline-block; width: 90%;}
+
+#homepage-text p{text-align: left;}
+
+#card-one{height: 350px;}
+
+.text-header{font-size: 20px; text-transform: uppercase; font-weight: bold;}
+
+.text-header-tail{font-size: 18px; color: #888; font-weight: bold;}
+
+.indent{text-indent: 3%;}
+
+.indent a{text-decoration: none; color: #663399; font-weight: bold;}
+
+.indent a:hover{text-decoration: underline;}
